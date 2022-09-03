@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+a:link {
+  text-decoration: none;
+  color: black;
+  
+}
+
+a:hover {
+  color:black;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+.navLink{
+  color: black;
+}
+
+.ourStoryMotive{
+  position:static;
+  height: 40%;
+  width: 100%;
+  background-color: rgb(252, 205,2);
+}
