@@ -57,3 +57,32 @@ li {
   width: 100%;
   height: 600px;
 }
+
+.asSeenInContainer {
+  margin-top: 3%;
+  width: 100%;
+}
+
+.asSeenInLogosGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 2px;
+  padding: 10px;
+  width: 75%;
+  margin: auto;
+}
+
+.asSeenInLogosGrid img {
+  width: 90%;
+}
+
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+}
+
+.asSeenInTitle {
+  text-align: center;
+  font-size: 125%;
+  color: gray;
+}
