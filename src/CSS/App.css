@@ -17,16 +17,24 @@ li {
   list-style-type: none;
 }
 
+.navBarTitle {
+  margin-left: 10vh;
+  font-size: 150%;
+}
+
+.navBarItems {
+  margin-right: 10%;
+}
+
 .motiveContainer {
-  height: 50%;
   background-color: #0049a5;
   overflow: auto;
   width: auto;
 }
 
 .motiveText {
-  margin-left: 5%;
-  margin-top: 8%;
+  margin-left: 6vh;
+  margin-top: 10vh;
   color: white;
   width: 50%;
   float: left;
@@ -81,7 +89,6 @@ li {
   color: gray;
 }
 
-<<<<<<< HEAD
 .ourStoryMotiveContainer {
   height: 50%;
   background-color: rgb(252, 205, 2);
@@ -89,7 +96,6 @@ li {
   width: auto;
 }
 
-=======
 .messagesContainer {
   text-align: center;
   margin-top: 8%;
@@ -129,4 +135,3 @@ li {
   border-radius: 20% 25% 20% 24%;
   padding: 10px 3px 3px 10px;
 }
->>>>>>> dc9bf73d74f02fa5923e883410e58e6681dbe0e1
