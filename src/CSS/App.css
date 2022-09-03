@@ -17,12 +17,6 @@ li {
   list-style-type: none;
 }
 
-.ourStoryMotive {
-  position: static;
-  height: 40%;
-  width: 100%;
-  background-color: rgb(252, 205, 2);
-}
 .motiveContainer {
   height: 50%;
   background-color: #0049a5;
@@ -86,3 +80,11 @@ li {
   font-size: 125%;
   color: gray;
 }
+
+.ourStoryMotiveContainer {
+  height: 50%;
+  background-color: rgb(252, 205, 2);
+  overflow: auto;
+  width: auto;
+}
+
