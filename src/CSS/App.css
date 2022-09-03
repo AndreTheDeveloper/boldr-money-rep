@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&family=Roboto+Slab:wght@300&display=swap");
+
 a:link {
   text-decoration: none;
   color: black;
@@ -17,19 +19,30 @@ li {
   list-style-type: none;
 }
 
+.navBarTitle {
+  font-family: "Roboto Slab", serif;
+  margin-left: 10vh;
+  font-size: 150%;
+}
+
+.navBarItems {
+  font-family: "Roboto Slab", serif;
+  margin-right: 10%;
+}
+
 .motiveContainer {
-  height: 50%;
   background-color: #0049a5;
   overflow: auto;
   width: auto;
 }
 
 .motiveText {
-  margin-left: 5%;
-  margin-top: 8%;
+  margin-left: 6vh;
+  margin-top: 10vh;
   color: white;
   width: 50%;
   float: left;
+  font-family: "Roboto Slab", serif;
 }
 
 .motiveText h1 {
@@ -53,6 +66,7 @@ li {
 }
 
 .asSeenInContainer {
+  font-family: "Roboto Slab", serif;
   margin-top: 3%;
   width: 100%;
 }
@@ -106,6 +120,7 @@ li {
 }
 
 .messagesContainer {
+  font-family: "Roboto Slab", serif;
   text-align: center;
   margin-top: 8%;
   font-size: 200%;
@@ -114,7 +129,7 @@ li {
 
 .mainMessage {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 1vh;
 }
 
 .message {
