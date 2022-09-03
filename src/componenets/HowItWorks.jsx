@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import NavBar from "./NavBar";
-import Motive from "./Motive";
 
 
 
-class Main extends Component {
+class HowItWorks extends Component {
   render() {
     return (
       <>
         <NavBar />
-        <Motive />
       </>
       
     );
@@ -17,4 +15,4 @@ class Main extends Component {
 
 }
 
-export default Main;
+export default HowItWorks;

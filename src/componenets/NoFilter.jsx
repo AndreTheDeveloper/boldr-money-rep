@@ -4,12 +4,11 @@ import Motive from "./Motive";
 
 
 
-class Main extends Component {
+class NoFilter extends Component {
   render() {
     return (
       <>
         <NavBar />
-        <Motive />
       </>
       
     );
@@ -17,4 +16,4 @@ class Main extends Component {
 
 }
 
-export default Main;
+export default NoFilter;

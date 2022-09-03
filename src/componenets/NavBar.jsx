@@ -6,7 +6,7 @@ class NavBar extends Component {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <a className="navbar-brand">
-          <li><NavLink className= "navLink" to='Main /'>Bolder</NavLink></li>
+          <li><NavLink className= "navLink" to=''>Bolder</NavLink></li>
           </a>
           <button
             className="navbar-toggler"
@@ -23,17 +23,17 @@ class NavBar extends Component {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" >
-                <li><NavLink className= "navLink" to='OurStory /'>Our Story</NavLink></li>
+                <li><NavLink className= "navLink" to='/OurStory'>Our Story</NavLink></li>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  How It Works
+                <a className="nav-link">
+                <li><NavLink className= "navLink" to='/HowItWorks'>How It Works</NavLink></li>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  #nofilter
+                <a className="nav-link">
+                <li><NavLink className= "navLink" to='/#NoFilter'>#NoFilter</NavLink></li>
                 </a>
               </li>
             </ul>
