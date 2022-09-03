@@ -6,9 +6,11 @@ class NavBar extends Component {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <a className="navbar-brand">
+              <li>
               <span className="navBarTitle">
-              <li><NavLink className= "navLink" to='/'>Bolder</NavLink></li>
+              <NavLink className= "navLink" to='/'>Bolder</NavLink>
               </span>
+              </li>
           </a>
           <button
             className="navbar-toggler"
