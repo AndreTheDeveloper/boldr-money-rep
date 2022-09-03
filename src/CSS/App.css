@@ -81,6 +81,7 @@ li {
   color: gray;
 }
 
+<<<<<<< HEAD
 .ourStoryMotiveContainer {
   height: 50%;
   background-color: rgb(252, 205, 2);
@@ -88,3 +89,44 @@ li {
   width: auto;
 }
 
+=======
+.messagesContainer {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.mainMessage {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.message {
+  display: inline-block;
+}
+
+.highlight-container,
+.highlight {
+  position: relative;
+}
+
+.highlight-container {
+  display: inline-block;
+}
+.highlight-container:before {
+  content: " ";
+  display: block;
+  height: 90%;
+  width: 100%;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: absolute;
+  background: #ffd500;
+  transform: rotate(2deg);
+  top: -1px;
+  left: -1px;
+  border-radius: 20% 25% 20% 24%;
+  padding: 10px 3px 3px 10px;
+}
+>>>>>>> dc9bf73d74f02fa5923e883410e58e6681dbe0e1
