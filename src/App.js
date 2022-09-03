@@ -1,8 +1,9 @@
-import "./App.css";
-import bootstrap from "bootstrap";
+import "./CSS/App.css";
+import Main from "./componenets/Main";
+import React from "react";
 
 function App() {
-  return <div>Hello World</div>;
+  return <Main />;
 }
 
 export default App;
