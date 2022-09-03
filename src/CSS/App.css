@@ -81,15 +81,30 @@ li {
   color: gray;
 }
 
-<<<<<<< HEAD
 .ourStoryMotiveContainer {
-  height: 50%;
   background-color: rgb(252, 205, 2);
   overflow: auto;
   width: auto;
 }
 
-=======
+.ourStoryMotiveText {
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.ourStoryMotiveText h1 {
+  font-size: 500%;
+  width: 80%;
+  font-weight: 400;
+}
+
+.ourStoryMotiveText p {
+  font-size: 150%;
+  width: 100%;
+}
+
 .messagesContainer {
   text-align: center;
   margin-top: 8%;
@@ -129,4 +144,3 @@ li {
   border-radius: 20% 25% 20% 24%;
   padding: 10px 3px 3px 10px;
 }
->>>>>>> dc9bf73d74f02fa5923e883410e58e6681dbe0e1
