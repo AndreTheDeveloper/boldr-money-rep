@@ -37,6 +37,7 @@
   }
 }
 
+<<<<<<< HEAD
 a:link {
   text-decoration: none;
   color: black;
@@ -59,3 +60,39 @@ a:hover {
   width: 100%;
   background-color: rgb(252, 205,2);
 }
+=======
+.motiveContainer {
+  height: 50%;
+  background-color: #0049a5;
+  overflow: auto;
+  width: auto;
+}
+
+.motiveText {
+  margin-left: 5%;
+  margin-top: 8%;
+  color: white;
+  width: 50%;
+  float: left;
+}
+
+.motiveText h1 {
+  font-size: 375%;
+  width: 70%;
+}
+
+.motiveText p {
+  font-size: 150%;
+  width: 80%;
+}
+
+.motiveImgContainer {
+  float: right;
+}
+
+.motiveImgContainer img {
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+>>>>>>> dd6350e94427c2293fe819d340a637e2f29dde43
