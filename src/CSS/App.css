@@ -13,6 +13,10 @@ a:hover {
   color: black;
 }
 
+li {
+  list-style-type: none;
+}
+
 .ourStoryMotive {
   position: static;
   height: 40%;
