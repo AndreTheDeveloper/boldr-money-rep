@@ -46,7 +46,7 @@ li {
 
 .motiveText {
   margin-left: 6vh;
-  margin-top: 10vh;
+  margin-top: 25vh;
   margin-bottom: 15vh;
   color: white;
   width: 50%;
@@ -118,8 +118,9 @@ li {
 .ourStoryMotiveText {
   font-family: "Roboto Slab", serif;
   margin: auto;
-  width: 50%;
-  height: 100%;
+  width: 40%;
+  margin-bottom: 6%;
+  margin-top:6%;
   text-align: center;
 }
 
@@ -132,10 +133,9 @@ li {
 }
 
 .ourStoryMotiveText p {
-  margin-top: 5%;
-  margin-bottom: 8%;
+  margin-top: 4%;
   font-size: 150%;
-  width: 100%;
+  width: 95%;
   font-weight: 500;
 }
 
@@ -145,6 +145,20 @@ li {
   color: black;
   width:auto;
   margin-bottom: 8%;
+  margin-top: 4%;
+}
+
+.ourStoryTextSectionContainer h2{
+  width: 20%;
+  margin-left:25%;
+  margin-bottom: 2%;
+}
+
+.ourStoryTextSectionContainer p{
+  width: 20%;
+  font-size: 125%;
+  margin-left:25%;
+  margin-bottom: 2%;
 }
 
 .ourStoryImageContainer{
