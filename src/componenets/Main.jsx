@@ -3,8 +3,7 @@ import NavBar from "./NavBar";
 import Motive from "./Motive";
 import AsSeenIn from "./AsSeenIn";
 import Messages from "./Messages";
-
-
+import Quotes from "./Quotes";
 
 class Main extends Component {
   render() {
@@ -14,11 +13,10 @@ class Main extends Component {
         <Motive />
         <AsSeenIn />
         <Messages />
+        <Quotes />
       </>
-      
     );
   }
-
 }
 
 export default Main;
