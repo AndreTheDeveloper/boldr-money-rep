@@ -31,6 +31,7 @@ li {
 }
 
 .motiveContainer {
+  position:relative;
   background-color: #0049a5;
   overflow: auto;
   width: auto;
@@ -39,6 +40,7 @@ li {
 .motiveText {
   margin-left: 6vh;
   margin-top: 10vh;
+  margin-bottom: 15vh;
   color: white;
   width: 50%;
   float: left;
@@ -56,13 +58,17 @@ li {
 }
 
 .motiveImgContainer {
-  float: right;
+  position:absolute;
+  bottom:0px;
+  right: 5%;
+  z-index: 0;
 }
 
 .motiveImgContainer img {
   display: block;
   width: 100%;
-  height: 600px;
+  height: 50vh;
+
 }
 
 .asSeenInContainer {
@@ -122,29 +128,42 @@ li {
   margin-bottom: 8%;
   font-size: 150%;
   width: 100%;
+  font-weight: 500;
 }
 
 .ourStoryTextSectionContainer{
+  position:relative;
   font-family: "Roboto Slab", serif;
-  overflow:auto;
+  color: black;
   width:auto;
+  margin-bottom: 8%;
 }
 
 .ourStoryTextSectionContainer h2{
   font-weight: 700;
   width: 20%;
-  margin-left: 15%;
-  margin-top: 8%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.ourStoryTextSectionContainer p{
+  font-size: 110%;
+  width: 20%;
+  margin-left: 20%;
+  margin-top: 2%;
+  font-weight: 500;
 }
 
 .ourStoryImageContainer{
-  float:right;
-  margin-right: 15%;
+  position:absolute;
+  width:auto;
+  top: 15%;
+  left: 60%;
 }
 
 .ourStoryImageContainer img {
-  width: auto;
-  height: 500px;
+  width: 500px;
+  height: auto;
 }
 
 .humanHightlight {
