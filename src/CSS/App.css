@@ -212,7 +212,7 @@ li {
   font-family: "Roboto Slab", serif;
   color: black;
   width: auto;
-  padding-bottom: 30%;
+  padding-bottom: 5%;
   
 }
 
@@ -297,32 +297,6 @@ li {
   background-repeat: no-repeat;
   height: 500px;
   width: 400px;
-}
-
-
-
-.buttontr{
-position:absolute;
-background-color: rgb(252, 205, 2);
-font-size: 200%;
-width:3%;
-top:85%;
-left: 51%;
-text-align: center;
-border-radius: 40%;
-padding-bottom: 0.3%;
-}
-
-.buttontl{
-  position:absolute;
-  background-color: rgb(252, 205, 2);
-  font-size: 200%;
-  width:3%;
-  top:85%;
-  left:46.5%;
-  text-align: center;
-  border-radius: 40%;
-  padding-bottom: 0.3%;
 }
 
 
