@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Motive extends Component {
+class OurStoryMotive extends Component {
   render() {
     return (
       <div className="ourStoryMotiveContainer">
@@ -16,4 +16,4 @@ class Motive extends Component {
   }
 }
 
-export default Motive;
+export default OurStoryMotive;

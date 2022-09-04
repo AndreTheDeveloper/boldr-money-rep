@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./NavBar";
 import OurStoryMotive from "./OurStoryMotive";
+import OurStoryTextSection from "./OurStoryTextSection";
 
 class OurStory extends Component {
   render() {
@@ -8,6 +9,7 @@ class OurStory extends Component {
       <>
         <NavBar />
         <OurStoryMotive />
+        <OurStoryTextSection />
       </>
     );
   }

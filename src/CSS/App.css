@@ -125,6 +125,29 @@ li {
   width: 100%;
 }
 
+.ourStoryTextSectionContainer{
+  font-family: "Roboto Slab", serif;
+  overflow:auto;
+  width:auto;
+}
+
+.ourStoryTextSectionContainer h2{
+  font-weight: 700;
+  width: 20%;
+  margin-left: 15%;
+  margin-top: 8%;
+}
+
+.ourStoryImageContainer{
+  float:right;
+  margin-right: 15%;
+}
+
+.ourStoryImageContainer img {
+  width: auto;
+  height: 500px;
+}
+
 .humanHightlight {
   font-style: italic;
   color: white;
