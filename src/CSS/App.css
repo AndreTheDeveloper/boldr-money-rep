@@ -192,3 +192,24 @@ li {
   border-radius: 20% 25% 20% 24%;
   padding: 10px 3px 3px 10px;
 }
+
+.quotesContainer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.quoteText {
+  font-family: "Roboto Slab", serif;
+  width: 225px;
+  height: 150px;
+  font-size: 115%;
+  margin: 1%;
+  display: inline-block;
+}
+
+.topQuotes {
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
