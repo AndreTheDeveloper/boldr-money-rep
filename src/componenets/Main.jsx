@@ -4,6 +4,8 @@ import Motive from "./Motive";
 import AsSeenIn from "./AsSeenIn";
 import Messages from "./Messages";
 import Quotes from "./Quotes";
+import Bolder from "./Bolder";
+import MPHowItWorks from "./MPHowItWorks";
 
 class Main extends Component {
   render() {
@@ -14,6 +16,8 @@ class Main extends Component {
         <AsSeenIn />
         <Messages />
         <Quotes />
+        <Bolder />
+        <MPHowItWorks />
       </>
     );
   }

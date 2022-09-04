@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&family=Roboto+Slab:wght@300&display=swap");
 
+.navBarContainer {
+  position: fixed;
+  width: 100%;
+}
+
 a:link {
   text-decoration: none;
   color: black;
@@ -93,6 +98,7 @@ li {
 .grid-item {
   font-size: 30px;
   text-align: center;
+  display: inline-block;
 }
 
 .asSeenInTitle {
@@ -117,7 +123,7 @@ li {
 
 .ourStoryMotiveText h1 {
   margin-top: 8%;
-  margin-left:5%;
+  margin-left: 5%;
   font-size: 500%;
   width: 80%;
   font-weight: 400;
@@ -137,9 +143,13 @@ li {
   color: black;
   width:auto;
   margin-bottom: 8%;
+.ourStoryTextSectionContainer {
+  font-family: "Roboto Slab", serif;
+  overflow: auto;
+  width: auto;
 }
 
-.ourStoryTextSectionContainer h2{
+.ourStoryTextSectionContainer h2 {
   font-weight: 700;
   width: 20%;
   margin-left: 20%;
@@ -154,11 +164,17 @@ li {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
 .ourStoryImageContainer{
   position:absolute;
   width:auto;
   top: 15%;
   left: 60%;
+=======
+.ourStoryImageContainer {
+  float: right;
+  margin-right: 15%;
+>>>>>>> c3854867f089c2212bff502da80a95cce29adf88
 }
 
 .ourStoryImageContainer img {
@@ -167,7 +183,7 @@ li {
 }
 
 .humanHightlight {
-  font-style:italic;
+  font-style: italic;
   color: white;
 }
 
@@ -231,4 +247,101 @@ li {
 .topQuotes {
   margin-top: 5%;
   margin-bottom: -5%;
+}
+
+.bolderContainer {
+  width: 100%;
+  margin-top: 2%;
+  display: inline-block;
+}
+
+.bolderGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.bolderTitle {
+  font-family: "Roboto Slab", serif;
+  font-size: 125%;
+}
+
+.bolderTitle img {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.bolderText {
+  font-family: "Roboto Slab", serif;
+}
+
+.bolder-item {
+  font-size: 150%;
+  width: 100%;
+  font-weight: bold;
+}
+
+.MPHIWContainer {
+  font-family: "Roboto Slab", serif;
+  margin-top: 8%;
+}
+
+.MPHIWTitle {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline palevioletred;
+}
+
+.MPHIWGrid {
+  margin-top: 8%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5%;
+  row-gap: 5%;
+}
+
+.MPHIWGrid img {
+  height: 400px;
+  width: 500px;
+}
+
+.step {
+  display: inline-block;
+  margin-bottom: 2%;
+  background-color: #f2dfce;
+  font-size: 115%;
+  border-radius: 5px;
+  width: 11.5%;
+  height: 7%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.MPHIWGIL h1 {
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.MPHIWGIL {
+  margin-left: 27%;
+  float: right;
+}
+
+.MPHIWGI {
+  float: left;
+}
+
+.MPHIWGI h1 {
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.MPHIWGI p {
+  font-size: 150%;
+}
+
+.MPHIWGIL p {
+  font-size: 150%;
 }
