@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&family=Roboto+Slab:wght@300&display=swap");
 
+.navBarContainer {
+  position: fixed;
+  width: 100%;
+}
+
 a:link {
   text-decoration: none;
   color: black;
@@ -125,21 +130,21 @@ li {
   width: 100%;
 }
 
-.ourStoryTextSectionContainer{
+.ourStoryTextSectionContainer {
   font-family: "Roboto Slab", serif;
-  overflow:auto;
-  width:auto;
+  overflow: auto;
+  width: auto;
 }
 
-.ourStoryTextSectionContainer h2{
+.ourStoryTextSectionContainer h2 {
   font-weight: 700;
   width: 20%;
   margin-left: 15%;
   margin-top: 8%;
 }
 
-.ourStoryImageContainer{
-  float:right;
+.ourStoryImageContainer {
+  float: right;
   margin-right: 15%;
 }
 
