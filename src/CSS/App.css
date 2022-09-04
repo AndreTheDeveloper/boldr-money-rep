@@ -87,6 +87,7 @@ li {
 .grid-item {
   font-size: 30px;
   text-align: center;
+  display: inline-block;
 }
 
 .asSeenInTitle {
@@ -111,7 +112,7 @@ li {
 
 .ourStoryMotiveText h1 {
   margin-top: 8%;
-  margin-left:5%;
+  margin-left: 5%;
   font-size: 500%;
   width: 80%;
   font-weight: 400;
@@ -125,7 +126,7 @@ li {
 }
 
 .humanHightlight {
-  font-style:italic;
+  font-style: italic;
   color: white;
 }
 
@@ -189,4 +190,36 @@ li {
 .topQuotes {
   margin-top: 5%;
   margin-bottom: -5%;
+}
+
+.bolderContainer {
+  width: 100%;
+  margin-top: 2%;
+  display: inline-block;
+}
+
+.bolderGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.bolderTitle {
+  font-family: "Roboto Slab", serif;
+  font-size: 125%;
+}
+
+.bolderTitle img {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.bolderText {
+  font-family: "Roboto Slab", serif;
+}
+
+.bolder-item {
+  font-size: 150%;
+  width: 100%;
+  font-weight: bold;
 }
