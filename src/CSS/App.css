@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&family=Roboto+Slab:wght@300&display=swap");
+@import "@splidejs/react-splide/css";
 
 .navBarContainer {
   position: fixed;
@@ -426,4 +427,37 @@ li {
   font-size: 250%;
   padding-top: 3%;
   font-weight: bold;
+}
+
+.employeeContainer {
+  justify-content: center;
+}
+
+.employeePic1 {
+  background-image: url("https://uploads-ssl.webflow.com/613b56dcd2b3656edc33accf/616ed4708827ae0fee20837d_%5BBolder%5D%20Testimonial%203.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 450px;
+  border-radius: 25px;
+}
+.employeePic2 {
+  background-image: url("https://uploads-ssl.webflow.com/613b56dcd2b3656edc33accf/616ed290e27f4430de495a2c_%5BBolder%5D%20Testimonial.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 450px;
+  border-radius: 25px;
+}
+.employeePic3 {
+  background-image: url("https://uploads-ssl.webflow.com/613b56dcd2b3656edc33accf/616ed37771a65064a46ab872_%5BBolder%5D%20Testimonial%202.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 450px;
+  border-radius: 25px;
+}
+.employeePic4 {
+  background-image: url("https://uploads-ssl.webflow.com/613b56dcd2b3656edc33accf/616ed60aadf4001c0a606a92_%5BBolder%5D%20Testimonial%204.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 450px;
+  border-radius: 25px;
 }

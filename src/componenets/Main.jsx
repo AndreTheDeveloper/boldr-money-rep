@@ -8,6 +8,7 @@ import Bolder from "./Bolder";
 import MPHowItWorks from "./MPHowItWorks";
 import FinancialPotential from "./FinancialPotential";
 import BetterOff from "./BetterOff";
+import Employees from "./Employees";
 
 class Main extends Component {
   render() {
@@ -22,6 +23,7 @@ class Main extends Component {
         <MPHowItWorks />
         <FinancialPotential />
         <BetterOff />
+        <Employees />
       </>
     );
   }
