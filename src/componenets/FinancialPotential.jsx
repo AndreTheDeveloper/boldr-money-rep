@@ -25,7 +25,7 @@ class FinancialPotential extends Component {
           <div className="financialItem">
             EARN MORE
             <div className="financialMoney">10%</div>
-            Average increase in income
+            <div className="average">Average increase in income</div>
           </div>
         </div>
       </div>
