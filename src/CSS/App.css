@@ -251,3 +251,68 @@ li {
   width: 100%;
   font-weight: bold;
 }
+
+.MPHIWContainer {
+  font-family: "Roboto Slab", serif;
+  margin-top: 8%;
+}
+
+.MPHIWTitle {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline palevioletred;
+}
+
+.MPHIWGrid {
+  margin-top: 8%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5%;
+  row-gap: 5%;
+}
+
+.MPHIWGrid img {
+  height: 400px;
+  width: 500px;
+}
+
+.step {
+  display: inline-block;
+  margin-bottom: 2%;
+  background-color: #f2dfce;
+  font-size: 115%;
+  border-radius: 5px;
+  width: 11.5%;
+  height: 7%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.MPHIWGIL h1 {
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.MPHIWGIL {
+  margin-left: 27%;
+  float: right;
+}
+
+.MPHIWGI {
+  float: left;
+}
+
+.MPHIWGI h1 {
+  font-weight: bold;
+  font-size: 190%;
+}
+
+.MPHIWGI p {
+  font-size: 150%;
+}
+
+.MPHIWGIL p {
+  font-size: 150%;
+}
