@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 
 class OurStoryHumansFirst extends Component {
-  
   render() {
     return (
       <div className="ourStoryHumansFirstContainer">
@@ -10,9 +9,10 @@ class OurStoryHumansFirst extends Component {
           <h2>Humans first. Coaches second</h2>
           <Splide
             options={{
-              perPage: 3,
-              arrows: false,
+              perPage: 6,
+              arrows: true,
               pagination: false,
+              padding: {right: '15rem'}, 
               drag: false,
             }}>
           
@@ -41,8 +41,6 @@ class OurStoryHumansFirst extends Component {
               <div className="coach8"></div>
             </SplideSlide>
           </Splide>
-          <button className="buttontr">→</button>
-          <button className="buttontl">←</button>
         </div>
       </div>
     );

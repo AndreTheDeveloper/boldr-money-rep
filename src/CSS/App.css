@@ -212,7 +212,12 @@ li {
   font-family: "Roboto Slab", serif;
   color: black;
   width: auto;
+<<<<<<< HEAD
+  padding-bottom: 5%;
+  
+=======
   padding-bottom: 30%;
+>>>>>>> 0392d50a5a033a6a566de3ab0932ae7c00c9e1cc
 }
 
 .ourStoryHumansFirstScroll {
@@ -297,6 +302,8 @@ li {
   width: 400px;
 }
 
+<<<<<<< HEAD
+=======
 .buttontr {
   position: absolute;
   background-color: rgb(252, 205, 2);
@@ -320,6 +327,7 @@ li {
   border-radius: 40%;
   padding-bottom: 0.3%;
 }
+>>>>>>> 0392d50a5a033a6a566de3ab0932ae7c00c9e1cc
 
 .bolderHightlight {
   font-weight: 900;
