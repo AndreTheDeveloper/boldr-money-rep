@@ -143,38 +143,13 @@ li {
   color: black;
   width:auto;
   margin-bottom: 8%;
-.ourStoryTextSectionContainer {
-  font-family: "Roboto Slab", serif;
-  overflow: auto;
-  width: auto;
 }
 
-.ourStoryTextSectionContainer h2 {
-  font-weight: 700;
-  width: 20%;
-  margin-left: 20%;
-  margin-top: 5%;
-}
-
-.ourStoryTextSectionContainer p{
-  font-size: 110%;
-  width: 20%;
-  margin-left: 20%;
-  margin-top: 2%;
-  font-weight: 500;
-}
-
-<<<<<<< HEAD
 .ourStoryImageContainer{
   position:absolute;
   width:auto;
   top: 15%;
   left: 60%;
-=======
-.ourStoryImageContainer {
-  float: right;
-  margin-right: 15%;
->>>>>>> c3854867f089c2212bff502da80a95cce29adf88
 }
 
 .ourStoryImageContainer img {
