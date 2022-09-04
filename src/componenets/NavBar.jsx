@@ -6,13 +6,11 @@ class NavBar extends Component {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <a className="navbar-brand">
-            <li>
+              <li>
               <span className="navBarTitle">
-                <NavLink className="navLink" to="">
-                  Bolder
-                </NavLink>
+              <NavLink className= "navLink" to='/'>Bolder</NavLink>
               </span>
-            </li>
+              </li>
           </a>
           <button
             className="navbar-toggler"
