@@ -6,6 +6,7 @@ import Messages from "./Messages";
 import Quotes from "./Quotes";
 import Bolder from "./Bolder";
 import MPHowItWorks from "./MPHowItWorks";
+import FinancialPotential from "./FinancialPotential";
 
 class Main extends Component {
   render() {
@@ -18,6 +19,7 @@ class Main extends Component {
         <Quotes />
         <Bolder />
         <MPHowItWorks />
+        <FinancialPotential />
       </>
     );
   }
