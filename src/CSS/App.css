@@ -41,6 +41,7 @@ li {
   background-color: #0049a5;
   overflow: auto;
   width: auto;
+  z-index: -1;
 }
 
 .motiveText {
@@ -67,7 +68,7 @@ li {
   position:absolute;
   bottom:0px;
   right: 5%;
-  z-index: 0;
+  z-index: -1;
 }
 
 .motiveImgContainer img {
