@@ -144,8 +144,7 @@ li {
   font-family: "Roboto Slab", serif;
   color: black;
   width: auto;
-  margin-bottom: 8%;
-  margin-top: 4%;
+  padding-bottom: 3%;
 }
 
 .ourStoryTextSectionContainer h2 {
@@ -153,6 +152,7 @@ li {
   width: 20%;
   margin-left: 25%;
   margin-bottom: 2%;
+  padding-top: 4%
 }
 
 .ourStoryTextSectionContainer p {
@@ -204,6 +204,126 @@ li {
   font-size: 300%;
   width: 100%;
 }
+
+.ourStoryHumansFirstContainer{
+  background-color: #f7eee6;
+  position: relative;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  width: auto;
+  padding-bottom: 30%;
+  
+}
+
+.ourStoryHumansFirstScroll{
+  font-family: "Roboto Slab", serif;
+  margin: auto;
+  text-align: center;
+}
+
+.ourStoryHumansFirstScroll h2{
+  font-weight: 500;
+  font-size: 350%;
+  padding-bottom:2.5%;
+  padding-top:2.5%;
+}
+
+
+.coachesImageContainer{
+  position:absolute;
+  overflow:hidden;
+}
+
+.coach1{
+  background-image: url("../Images/coach1.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 400px;
+}
+
+.coach2{
+  background-image: url("../Images/coach2.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 400px;
+}
+
+.coach3{
+  background-image: url("../Images/coach3.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 400px;
+}
+
+.coach4{
+  background-image: url("../Images/coach4.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 400px;
+}
+
+.coach5{
+  background-image: url("../Images/coach5.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 400px;
+}
+
+.coach6{
+  background-image: url("../Images/coach6.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 400px;
+}
+
+.coach7{
+  background-image: url("../Images/coach7.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 400px;
+}
+
+.coach8{
+  background-image: url("../Images/coach8.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 400px;
+}
+
+
+
+.buttontr{
+position:absolute;
+background-color: rgb(252, 205, 2);
+font-size: 200%;
+width:3%;
+top:85%;
+left: 51%;
+text-align: center;
+border-radius: 40%;
+padding-bottom: 0.3%;
+}
+
+.buttontl{
+  position:absolute;
+  background-color: rgb(252, 205, 2);
+  font-size: 200%;
+  width:3%;
+  top:85%;
+  left:46.5%;
+  text-align: center;
+  border-radius: 40%;
+  padding-bottom: 0.3%;
+}
+
 
 .bolderHightlight {
   font-weight: 900;
