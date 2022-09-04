@@ -522,7 +522,8 @@ li {
   font-weight: bold;
 }
 
-.employeeContainer {
+.employeesContainer {
+  margin-top: 5%;
 }
 
 .employeePic1 {
@@ -531,6 +532,7 @@ li {
   height: 500px;
   width: 450px;
   border-radius: 25px;
+  position: relative;
 }
 .employeePic2 {
   background-image: url("https://uploads-ssl.webflow.com/613b56dcd2b3656edc33accf/616ed290e27f4430de495a2c_%5BBolder%5D%20Testimonial.jpg");
@@ -538,6 +540,7 @@ li {
   height: 500px;
   width: 450px;
   border-radius: 25px;
+  position: relative;
 }
 .employeePic3 {
   background-image: url("https://uploads-ssl.webflow.com/613b56dcd2b3656edc33accf/616ed37771a65064a46ab872_%5BBolder%5D%20Testimonial%202.jpg");
@@ -545,6 +548,7 @@ li {
   height: 500px;
   width: 450px;
   border-radius: 25px;
+  position: relative;
 }
 .employeePic4 {
   background-image: url("https://uploads-ssl.webflow.com/613b56dcd2b3656edc33accf/616ed60aadf4001c0a606a92_%5BBolder%5D%20Testimonial%204.jpg");
@@ -552,4 +556,33 @@ li {
   height: 500px;
   width: 450px;
   border-radius: 25px;
+  position: relative;
+}
+
+.employeeDesc {
+  font-family: "Roboto Slab", serif;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font-size: 150%;
+  margin-left: 10%;
+  margin-right: 5%;
+  text-shadow: 1px 1px black, 2px 2px black;
+  font-weight: 550;
+  margin-bottom: 20%;
+}
+
+.employeeName {
+  font-family: "Roboto Slab", serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #c99fd8;
+  font-size: 150%;
+  margin-left: 10%;
+  margin-right: 5%;
+  text-shadow: 1px 1px black, 2px 2px black;
+  font-weight: 700;
+  margin-bottom: 10%;
 }
