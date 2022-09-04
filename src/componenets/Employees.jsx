@@ -7,14 +7,16 @@ class Employees extends Component {
       <div className="employeesContainer">
         <Splide
           options={{
-            perPage: 3,
+            perPage: 4,
             arrows: false,
             pagination: false,
             drag: true,
             snap: true,
-            gap: "1rem",
+            gap: "-35rem",
             direction: "ltr",
             type: "slide",
+            focus: 1,
+            trimSpace: false,
           }}
         >
           <SplideSlide>
