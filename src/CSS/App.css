@@ -212,12 +212,9 @@ li {
   font-family: "Roboto Slab", serif;
   color: black;
   width: auto;
-<<<<<<< HEAD
   padding-bottom: 5%;
-  
-=======
+
   padding-bottom: 30%;
->>>>>>> 0392d50a5a033a6a566de3ab0932ae7c00c9e1cc
 }
 
 .ourStoryHumansFirstScroll {
@@ -302,8 +299,6 @@ li {
   width: 400px;
 }
 
-<<<<<<< HEAD
-=======
 .buttontr {
   position: absolute;
   background-color: rgb(252, 205, 2);
@@ -327,7 +322,6 @@ li {
   border-radius: 40%;
   padding-bottom: 0.3%;
 }
->>>>>>> 0392d50a5a033a6a566de3ab0932ae7c00c9e1cc
 
 .bolderHightlight {
   font-weight: 900;
@@ -554,6 +548,7 @@ li {
 
 .employeesContainer {
   margin-top: 5%;
+  cursor: grab;
 }
 
 .employeePic1 {
@@ -615,4 +610,25 @@ li {
   text-shadow: 1px 1px black, 2px 2px black;
   font-weight: 700;
   margin-bottom: 10%;
+}
+
+.financialMistakesContainer {
+  margin-top: 3%;
+  width: 100%;
+  height: 200px;
+  background-color: #0049a5;
+}
+
+.financialTitle {
+  color: white;
+  padding-top: 2%;
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+}
+
+.financialSource {
+  text-align: center;
+  color: lightblue;
+  font-size: 115%;
 }
