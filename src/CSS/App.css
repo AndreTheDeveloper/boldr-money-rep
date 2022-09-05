@@ -677,3 +677,50 @@ li {
 .investListItem {
   margin-top: 3%;
 }
+
+.howItWorksHeading {
+  background-color: #016e4e;
+  padding-top: 600px;
+  position: relative;
+}
+
+.howItWorksHeadingGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.howItWorksHeadingLeft {
+  position: absolute;
+  font-family: "Roboto Slab", serif;
+  color: rgb(255, 255, 255);
+  width: 30vw;
+  top: 9vh;
+  margin-left: 25%;
+}
+
+.howItWorksHeadingTitle {
+  font-size: 400%;
+  font-weight: 700;
+  width: 80%;
+}
+
+.hiwhUnderline {
+  text-decoration: underline yellow;
+}
+
+.hiwhDesc {
+  margin-top: 5%;
+  font-size: 150%;
+}
+
+.howItWorksHeadingRight {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 10%;
+}
+
+.howItWorksHeadingRight img {
+  width: 500px;
+  height: 500px;
+}
