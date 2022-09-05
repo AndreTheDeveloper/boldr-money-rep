@@ -615,7 +615,7 @@ li {
 .financialMistakesContainer {
   margin-top: 3%;
   width: 100%;
-  height: 200px;
+  height: 235px;
   background-color: #0049a5;
 }
 
@@ -631,4 +631,50 @@ li {
   text-align: center;
   color: lightblue;
   font-size: 115%;
+}
+
+.investYourselfContainer {
+  font-family: "Roboto Slab", serif;
+  margin-top: 5%;
+}
+
+.investYourselfGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1%;
+  justify-content: center;
+}
+
+.investLeft {
+  width: 50%;
+  margin-left: 20%;
+}
+
+.investTitle {
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.investBold {
+  font-weight: bold;
+}
+
+.investRight img {
+  height: 500px;
+  width: 500px;
+  border-radius: 35px;
+}
+
+.investDesc {
+  font-size: 125%;
+  margin-top: 10%;
+}
+
+.investDescList {
+  margin-top: 5%;
+  font-size: 125%;
+}
+
+.investListItem {
+  margin-top: 3%;
 }
