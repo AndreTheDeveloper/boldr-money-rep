@@ -214,8 +214,14 @@ li {
   font-family: "Roboto Slab", serif;
   color: black;
   width: auto;
+<<<<<<< HEAD
   padding-bottom: 4vh;
   
+=======
+  padding-bottom: 5%;
+
+  padding-bottom: 30%;
+>>>>>>> 7cf60ce530e9f6de4f232b6bcf4c8ce7a77c2d10
 }
 
 .ourStoryHumansFirstScroll {
@@ -318,6 +324,29 @@ li {
   width: 400px;
 }
 
+.buttontr {
+  position: absolute;
+  background-color: rgb(252, 205, 2);
+  font-size: 200%;
+  width: 3%;
+  top: 85%;
+  left: 51%;
+  text-align: center;
+  border-radius: 40%;
+  padding-bottom: 0.3%;
+}
+
+.buttontl {
+  position: absolute;
+  background-color: rgb(252, 205, 2);
+  font-size: 200%;
+  width: 3%;
+  top: 85%;
+  left: 46.5%;
+  text-align: center;
+  border-radius: 40%;
+  padding-bottom: 0.3%;
+}
 
 .bolderHightlight {
   font-weight: 900;
@@ -504,7 +533,6 @@ li {
   justify-content: center;
   display: grid;
   grid-template-columns: auto auto;
-  column-gap: 5%;
   row-gap: 5%;
 }
 
@@ -552,7 +580,7 @@ li {
 }
 
 .financialContainer {
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 .financialTitle {
@@ -612,6 +640,7 @@ li {
 
 .employeesContainer {
   margin-top: 5%;
+  cursor: grab;
 }
 
 .employeePic1 {
@@ -675,6 +704,7 @@ li {
   margin-bottom: 10%;
 }
 
+<<<<<<< HEAD
 .bottomNavContainer{
   background-color: #016f4b;
   position: relative;
@@ -827,3 +857,118 @@ li {
   color:silver;
   opacity: 1;
  }
+=======
+.financialMistakesContainer {
+  margin-top: 3%;
+  width: 100%;
+  height: 235px;
+  background-color: #0049a5;
+}
+
+.financialTitle {
+  color: white;
+  padding-top: 2%;
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+}
+
+.financialSource {
+  text-align: center;
+  color: lightblue;
+  font-size: 115%;
+}
+
+.investYourselfContainer {
+  font-family: "Roboto Slab", serif;
+  margin-top: 5%;
+}
+
+.investYourselfGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1%;
+  justify-content: center;
+}
+
+.investLeft {
+  width: 50%;
+  margin-left: 20%;
+}
+
+.investTitle {
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.investBold {
+  font-weight: bold;
+}
+
+.investRight img {
+  height: 500px;
+  width: 500px;
+  border-radius: 35px;
+}
+
+.investDesc {
+  font-size: 125%;
+  margin-top: 10%;
+}
+
+.investDescList {
+  margin-top: 5%;
+  font-size: 125%;
+}
+
+.investListItem {
+  margin-top: 3%;
+}
+
+.howItWorksHeading {
+  background-color: #016e4e;
+  padding-top: 600px;
+  position: relative;
+}
+
+.howItWorksHeadingGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.howItWorksHeadingLeft {
+  position: absolute;
+  font-family: "Roboto Slab", serif;
+  color: rgb(255, 255, 255);
+  width: 30vw;
+  top: 9vh;
+  margin-left: 25%;
+}
+
+.howItWorksHeadingTitle {
+  font-size: 400%;
+  font-weight: 700;
+  width: 80%;
+}
+
+.hiwhUnderline {
+  text-decoration: underline yellow;
+}
+
+.hiwhDesc {
+  margin-top: 5%;
+  font-size: 150%;
+}
+
+.howItWorksHeadingRight {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 10%;
+}
+
+.howItWorksHeadingRight img {
+  width: 500px;
+  height: 500px;
+}
+>>>>>>> 7cf60ce530e9f6de4f232b6bcf4c8ce7a77c2d10

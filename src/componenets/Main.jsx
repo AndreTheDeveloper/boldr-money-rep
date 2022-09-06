@@ -9,6 +9,8 @@ import MPHowItWorks from "./MPHowItWorks";
 import FinancialPotential from "./FinancialPotential";
 import BetterOff from "./BetterOff";
 import Employees from "./Employees";
+import FinancialMistakes from "./FinancialMistakes";
+import InvestYourself from "./InvestYourself";
 
 class Main extends Component {
   render() {
@@ -24,6 +26,8 @@ class Main extends Component {
         <FinancialPotential />
         <BetterOff />
         <Employees />
+        <FinancialMistakes />
+        <InvestYourself />
       </>
     );
   }
