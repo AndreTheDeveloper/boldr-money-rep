@@ -111,6 +111,9 @@ li {
 }
 
 .ourStoryMotiveContainer {
+  display:grid;
+  grid-template-columns: auto;
+  justify-content:center;
   background-color: rgb(252, 205, 2);
   overflow: auto;
   width: auto;
@@ -119,11 +122,8 @@ li {
 
 .ourStoryMotiveText {
   font-family: "Roboto Slab", serif;
-  margin: auto;
-  width: 50vw;
   margin-bottom: 8vh;
-  margin-top: 16vh;
-  padding-left: 3vw;
+  margin-top: 10vh;
 }
 
 .ourStoryMotiveText h1 {
@@ -142,18 +142,21 @@ li {
 }
 
 .ourStoryTextSectionContainer {
+  display:grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
   background-color: #fdfaf7;
-  position: relative;
   font-family: "Roboto Slab", serif;
   color: black;
-  width: auto;
-  padding-bottom: 3vw;
+  padding-bottom: 20vh;
+  padding-top: 15vh;
 }
 
 .ourStoryTextSectionContainer h2 {
   font-weight: 700;
   width: 20vw;
-  margin-left: 25vw;
   margin-bottom: 4vh;
   padding-top: 6vh;
 }
@@ -162,16 +165,9 @@ li {
   width: 20vw;
   font-weight: 500;
   font-size: 125%;
-  margin-left: 25vw;
   margin-bottom: 4vh;
 }
 
-.ourStoryImageContainer {
-  position: absolute;
-  width: auto;
-  top: 13vh;
-  left: 60vw;
-}
 
 .ourStoryImageContainer img {
   width: 500px;
@@ -349,11 +345,14 @@ li {
 }
 
 .speakingOfWe{
-  position:relative;
+  display:grid;
+  grid-template-columns: 80%;
+  justify-content: center;
   background-color: #fdfaf7;
   font-family: "Roboto Slab", serif;
   color: black;
-  width: auto;
+  width: autos;
+  text-align: center;
 }
 
 .speakingOfWeTitle{
@@ -369,10 +368,10 @@ li {
 
 .speakingOfWeGrid{
  display: grid;
- grid-template-columns: auto auto;
- text-align: left;
- width:min-content;
- margin-left: 19vw;
+ grid-template-columns: 50% 50%;
+ justify-content: center;
+ justify-items: center;
+ text-align:left;
  padding-bottom: 4vh;
 }
 
@@ -387,7 +386,6 @@ li {
 
 .speakingOfWeGridLeft{
   width: 25vw;
-  margin-right: 6vw;
 }
 
 .speakingOfWeGridLeft img{
@@ -399,7 +397,6 @@ li {
 
 .speakingOfWeGridRight{
   width: 26.5vw;
-  margin-left: 3.5vw
   
 }
 
@@ -928,8 +925,83 @@ li {
   padding-bottom: 5vh;
  }
 
- 
+.noFilterMotive{
+  display:grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+  background-color: #fdfaf7;
+  position: relative;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  width: 100%;
+  text-align: center;
+}
 
+.noFilterMotive h1{
+  font-size: 400%;
+  font-weight: 700;
+  text-decoration: underline #ffd500;
+  text-decoration-thickness: 10px;
+}
+
+.noFilterMotive p{
+ font-size: 125%;
+
+}
+
+ .featuredPost{
+  display:grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  background-color: #f7eee6;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width : 100%;
+ }
+
+ .noFilterStories{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  background-color: #fdfaf7;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  width:100%
+ }
+
+ .noFilterStories h2{
+  font-size: 250%;
+  font-weight: 700;
+ }
+
+ .noFilterStories img {
+  padding-top: 7vh
+ }
+
+ .storiesButton{
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  display:block;
+  width: 5vw;
+  height: 5vh;
+  text-align: center;
+  padding-top: 1vh;
+  border-radius: 50px;
+  border-color: silver;
+  border-width: 1px;
+  margin-top: 5vh;
+ }
+
+ .noFilterGrid{
+  display:grid;
+  grid-template-columns: auto;
+  justify-items: center;
+ }
 
  
 
