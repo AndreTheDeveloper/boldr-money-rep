@@ -11,6 +11,7 @@ import BetterOff from "./BetterOff";
 import Employees from "./Employees";
 import FinancialMistakes from "./FinancialMistakes";
 import InvestYourself from "./InvestYourself";
+import BottomNav from "./BottomNav";
 
 class Main extends Component {
   render() {
@@ -28,6 +29,7 @@ class Main extends Component {
         <Employees />
         <FinancialMistakes />
         <InvestYourself />
+        <BottomNav />
       </>
     );
   }

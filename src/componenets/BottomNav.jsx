@@ -20,7 +20,6 @@ render(){
                     <h2>coaches@boldermoney.com</h2>
                     <h3>+1 (347) 418-0923</h3>
                     <img src = {socialMedia} alt = {'Social Media'}></img>
-                    <p>© 2022 Bolder Money Moves</p>
                 </div>
                 <div className = 'bottomNavGridMid'>
                     <a>
@@ -60,13 +59,20 @@ render(){
                         <input className = 'emailForm' type = 'email' placeholder = 'Email Address' name = 'email' />
                         <input className = 'emailFormButton' type = 'submit' value = '→' />
                     </form>
-                    <div className = 'footerGrid'>
-                        <div className = 'footerGridRight'>
-                            <p>Privacy Policy</p>
-                        </div>
-                        <div className = 'footerGridLeft'>
-                            <p>Terms & Conditions</p>
-                        </div>
+                </div>
+            </div>
+            <div className = 'footerGrid'>
+                <div className = 'footerGridLeft'>             
+                    <p>
+                        © 2022 Bolder Money Moves
+                    </p>
+                </div>
+                <div className = 'footerGridRight'>
+                    <div className = 'footerGridRightRight'>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div className = 'footerGridLeftLeft'>
+                        <p>Terms & Conditions</p>
                     </div>
                 </div>
             </div>
