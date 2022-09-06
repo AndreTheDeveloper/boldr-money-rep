@@ -862,3 +862,76 @@ li {
   color:silver;
   opacity: 1;
  }
+
+ .membershipContainer{
+  background-color: #fdfaf7;
+  position: relative;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  width: auto;
+  padding-top: 20vh;
+ }
+
+ .membershipContainer h2{
+  text-align: center;
+  font-size: 250%;
+  font-weight: 600;
+ }
+
+ .membershipGrid{
+  display:grid;
+  grid-template-columns: auto auto;
+  padding-top: 10vh;
+  padding-bottom:15vh
+ }
+
+ .membershipGridLeft{
+  width: 23vw;
+  font-size: 150%;
+  margin-left: 10vw;
+  padding-top: 5vh;
+  font-weight: 500;
+ }
+
+ .membershipGridRight img:hover{
+  cursor: pointer;
+
+ }
+
+ .scheduleContainer{
+  background-color: #f7eee6;
+  position: relative;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  width: auto;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+ }
+
+ .scheduleGrid h2{
+  font-size: 250%;
+  font-weight: 700;
+  padding-bottom: 3vh;
+ }
+
+ .scheduleGrid{
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 5vh;
+ }
+
+ .scheduleGrid img{
+  padding-bottom: 5vh;
+ }
+
+ 
+
+
+ 
+
+
+ 
