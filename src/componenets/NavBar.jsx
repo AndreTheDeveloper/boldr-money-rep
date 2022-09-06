@@ -50,7 +50,7 @@ class NavBar extends Component {
                   <li className="nav-item">
                     <a className="nav-link">
                       <li>
-                        <NavLink className="navLink" to="/#NoFilter">
+                        <NavLink className="navLink" to="/NoFilter">
                           #NoFilter
                         </NavLink>
                       </li>

@@ -9,7 +9,7 @@ class OurStoryHumansFirst extends Component {
           <h2>Humans first. Coaches second</h2>
           <Splide
             options={{
-              perPage: 6,
+              perPage: 5,
               arrows: true,
               pagination: false,
               padding: {right: '15rem'}, 
@@ -41,6 +41,8 @@ class OurStoryHumansFirst extends Component {
               <div className="coach8"></div>
             </SplideSlide>
           </Splide>
+          <h3>Want to join our team of inspiring coaches?</h3>
+          <p>Reach out to us at <span className = 'emailHighlight'>coaches@boldermoney.com</span></p>
         </div>
       </div>
     );
