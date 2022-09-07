@@ -37,7 +37,7 @@ li {
   margin-right: 10vw;
 }
 
-.quizButton{
+.quizButton {
   background-color: #ffd500;
   width: 7vw;
   font-family: "Roboto Slab", serif;
@@ -1113,6 +1113,7 @@ li {
   justify-items: center;
 }
 
+<<<<<<< HEAD
 .quizContainer{
   padding-top:20vh;
 }
@@ -1185,3 +1186,84 @@ li {
   display:none;
 }
 
+=======
+.moneyGangContainer {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+}
+
+.moneyGangTitle {
+  margin-top: 5%;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  font-size: 250%;
+}
+
+.moneyGangGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: auto;
+  justify-items: center;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+.moneyGang {
+  text-align: center;
+  width: 60%;
+}
+
+.moneyGang2ndTitle {
+  font-family: "Roboto Slab", serif;
+  font-size: 125%;
+}
+
+.moneyGangGrid img {
+  height: 400px;
+  width: 300px;
+}
+
+.goalsContainer {
+  margin-top: 5%;
+}
+
+.goalsGrid {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 5%;
+}
+
+.goalsDesc {
+  font-family: "Roboto Slab", serif;
+  margin-top: 12%;
+  font-size: 120%;
+  width: 80%;
+}
+
+.goalsImg img {
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.goalsDescGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.goalsDescGridR {
+  margin-left: 5%;
+}
+
+.goalsHeader {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  font-size: 350%;
+  width: 50%;
+  margin-left: 25%;
+}
+>>>>>>> f5e86d5da746d5d9307c8802ef1136552fafa7cf
