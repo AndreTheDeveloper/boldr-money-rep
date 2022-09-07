@@ -5,6 +5,7 @@ import HowItWorks from "./componenets/HowItWorks";
 import NoFilter from "./componenets/NoFilter.jsx";
 import JoinBolder from "./componenets/JoinBolder.jsx";
 import BookACall from "./componenets/BookACall.jsx";
+import TakeTheQuiz from './componenets/TakeTheQuiz.jsx';
 import React from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function App() {
       <Route exact path = '/NoFilter' element = {<NoFilter />}/>
       <Route exact path = '/JoinBolder' element = {<JoinBolder />}/>
       <Route exact path = '/BookACall' element = {<BookACall />}/>
+      <Route exact path = '/TakeTheQuiz' element = {<TakeTheQuiz />}/>
   </Routes>
   </BrowserRouter> 
     

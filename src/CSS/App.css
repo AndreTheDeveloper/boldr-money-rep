@@ -38,6 +38,16 @@ li {
   margin-right: 10vw;
 }
 
+.quizButton{
+  background-color: #ffd500;
+  width: 7vw;
+  font-family: "Roboto Slab", serif;
+  border-radius: 10px;
+  border-color: #ffd500;
+  border-width: 0.5px;
+  font-weight: 700;
+}
+
 .motiveContainer {
   position: relative;
   background-color: #0049a5;

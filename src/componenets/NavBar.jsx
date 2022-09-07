@@ -56,6 +56,15 @@ class NavBar extends Component {
                       </li>
                     </a>
                   </li>
+                  <li className="nav-item">
+                    <a className="nav-link">
+                      <li>
+                        <NavLink className="navLink" to="/TakeTheQuiz">
+                          <button className = "quizButton">Take The Quiz</button>
+                        </NavLink>
+                      </li>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </span>
