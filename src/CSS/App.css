@@ -763,6 +763,24 @@ li {
   padding-bottom: 1vh;
 }
 
+.howItWorksHeading{
+background-color: #016f4b;
+padding-top: 15vh;
+display:grid;
+grid-template-columns: auto;
+}
+
+.howItWorksHeadingGrid{
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+}
+
+.howItWorksHeadingRight img{
+  width:500px;
+  height: 500px;
+}
+
 .bottomNavContainer{
   background-color: #016f4b;
   position: relative;
