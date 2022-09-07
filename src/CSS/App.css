@@ -1112,3 +1112,76 @@ li {
   grid-template-columns: auto;
   justify-items: center;
 }
+
+.quizContainer{
+  padding-top:20vh;
+}
+
+.quizStart{
+  display:"";
+}
+
+.message1{
+  display:none;
+}
+
+.quizPage1{
+  display:none;
+}
+
+.quizPage2{
+  display:none;
+}
+
+.quizPage3{
+  display:none;
+}
+
+.quizPage4{
+  display:none;
+}
+
+.message2{
+  display:none;
+}
+
+.message3{
+  display:none;
+}
+
+.quizPage5{
+  display:none;
+}
+
+.quizPage6{
+  display:none;
+}
+
+.quizPage7{
+  display:none;
+}
+
+.message4{
+  display:none;
+}
+
+.message5{
+  display:none;
+}
+
+.quizPage8{
+  display:none;
+}
+
+.quizPage9{
+  display:none;
+}
+
+.message6{
+  display:none;
+}
+
+.quizPage10{
+  display:none;
+}
+
