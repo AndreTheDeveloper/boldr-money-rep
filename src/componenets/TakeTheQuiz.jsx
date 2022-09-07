@@ -144,8 +144,6 @@ class TakeTheQuiz extends Component {
             <div className = 'quizPage10' id = 'p17'>
              im page 10
             </div>
-            <button className = 'nextButton' id = "nextButton">Next</button>
-            <button className = 'previousButton' id = 'previousButton' >Previous</button>
         </div>
       </>
     );
