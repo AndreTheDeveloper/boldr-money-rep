@@ -1102,3 +1102,40 @@ li {
   grid-template-columns: auto;
   justify-items: center;
 }
+
+.moneyGangContainer {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+}
+
+.moneyGangTitle {
+  margin-top: 5%;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  font-size: 250%;
+}
+
+.moneyGangGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: auto;
+  justify-items: center;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+.moneyGang {
+  text-align: center;
+  width: 60%;
+}
+
+.moneyGang2ndTitle {
+  font-family: "Roboto Slab", serif;
+  font-size: 125%;
+}
+
+.moneyGangGrid img {
+  height: 400px;
+  width: 300px;
+}

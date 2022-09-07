@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import HowItWorksHeading from "./HowItWorksHeading";
 import NavBar from "./NavBar";
-import BottomNav from './BottomNav';
+import BottomNav from "./BottomNav";
+import MoneyGang from "./MoneyGang";
 
 class HowItWorks extends Component {
   render() {
@@ -9,6 +10,7 @@ class HowItWorks extends Component {
       <>
         <NavBar />
         <HowItWorksHeading />
+        <MoneyGang />
         <BottomNav />
       </>
     );
