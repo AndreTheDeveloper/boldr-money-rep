@@ -10,9 +10,9 @@ class InvestYourself extends Component {
       <div className="investYourselfContainer">
         <div className="investYourselfGrid">
           <div className="investLeft">
-            <div className="investTitle">Invest in yourself</div>
+            <div className="investTitle">Invest in <span className = "investUnderline">yourself</span></div>
             <div className="investDesc">
-              No judgement. No budgeting. No financial lingo. For $58/month,
+              No judgement. No budgeting. No financial lingo. For <span className = 'amountColor'>$58/month</span>,
               here's how you become Bolder:
             </div>
             <div className="investDescList">

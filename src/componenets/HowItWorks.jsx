@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HowItWorksHeading from "./HowItWorksHeading";
 import NavBar from "./NavBar";
+import BottomNav from './BottomNav';
 
 class HowItWorks extends Component {
   render() {
@@ -8,6 +9,7 @@ class HowItWorks extends Component {
       <>
         <NavBar />
         <HowItWorksHeading />
+        <BottomNav />
       </>
     );
   }

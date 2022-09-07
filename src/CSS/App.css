@@ -606,6 +606,21 @@ li {
   margin-bottom: 15%;
 }
 
+.financialMistakesContainer{
+  font-family: "Roboto Slab", serif;
+  display:grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  background-color: #0049a5;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  color:white;
+}
+
+.financialSource{
+  color: silver;
+}
+
 .average {
   font-family: "Roboto Slab", serif;
   font-size: 110%;
@@ -632,6 +647,7 @@ li {
 .employeesContainer {
   margin-top: 5%;
   cursor: grab;
+  padding-bottom: 5%;
 }
 
 .employeePic1 {
@@ -693,6 +709,58 @@ li {
   text-shadow: 1px 1px black, 2px 2px black;
   font-weight: 700;
   margin-bottom: 10%;
+}
+
+.investYourselfContainer{
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  display:grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  background-color: #F7EEE6;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.investYourselfGrid{
+  display:grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  justify-items: center;
+  width: 80vw;
+}
+
+.investTitle{
+  font-size: 200%;
+  padding-bottom: 5vh;
+  width: 20vw;
+  font-weight: 700;
+}
+
+.investDesc{
+  font-size: 125%;
+  width: 20vw;
+  padding-bottom: 5vh;
+}
+
+.investRight img{
+  width: 506px;
+
+}
+
+.investUnderline{
+  text-decoration: underline solid;
+  text-decoration-color: blue;
+  text-decoration-thickness: 3px;
+}
+
+.amountColor{
+  color: blue;
+  font-weight: 700;
+}
+
+.investListItem{
+  padding-bottom: 1vh;
 }
 
 .bottomNavContainer{
