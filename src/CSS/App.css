@@ -1113,80 +1113,315 @@ li {
   justify-items: center;
 }
 
-<<<<<<< HEAD
 .quizContainer{
-  padding-top:20vh;
+  padding-top:10vh;
+  background-color:#f7eee6;
 }
 
 .quizStart{
-  display:"";
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  justify-items:center;
+  padding-top: 5vh;
+  padding-bottom:5vh;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  border-top: solid silver;
+  width:50%;
+  margin-left:25%;
+  margin-right: 25%;
 }
 
-.message1{
-  display:none;
+.quizStart h2{
+  font-weight: 700;
+  padding-top: 2vh;
+  padding-bottom:2vh;
+}
+
+.quizStart p{
+  color:silver;
+  font-weight: 600;
+}
+
+.quizStart h3{
+  font-weight:700 ;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .quizPage1{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  justify-items:center;
+  padding-top: 5vh;
+  padding-bottom:5vh;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  border-top: solid silver;
+  border-bottom: solid silver;
+  width:50%;
+  margin-left:25%;
+  margin-right: 25%;
+}
+
+.quizPage1 h2{
+  font-weight: 700;
+  text-align: center;
+}
+
+.quizPage1 p{
+  color:silver;
+  padding-top: 2vh;
+  font-weight: 600;
+}
+
+.checkGrid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  padding-top: 5vh;
+  align-items: center;
+}
+
+
+.quizPage2{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  justify-items:center;
+  padding-top: 5vh;
+  padding-bottom:5vh;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  border-bottom: solid silver;
+  width:50%;
+  margin-left:25%;
+  margin-right: 25%;
+}
+
+.quizPage2 h2{
+  font-weight: 600;
+  padding-bottom: 3vh;
+}
+
+.quizPage2 p {
+  color:silver;
+  font-weight: 600;
+  padding-top: 3vh;
+}
+
+.check{
+  padding-bottom:1vh;
+}
+
+.check label{
+  padding-left: 1vw;
+}
+
+.rows{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto ;
+  justify-content: center;
+}
+
+.emoji{
+  padding-left: 1vw;
+}
+
+.angry[type = checkbox]{
   display:none;
 }
 
-.quizPage2{
+input[type = checkbox] + .angryEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445c7ecdd8e8fd1c15f_icon-emoji-angry.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid silver 2px;
+}
+
+input[type = checkbox]:checked + .angryEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445c7ecdd8e8fd1c15f_icon-emoji-angry.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid green 2px;
+}
+
+.uneasy[type = checkbox]{
   display:none;
+}
+
+input[type = checkbox] + .uneasyEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445718372477d57a93f_icon-emoji-teeth.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid silver 2px;
+}
+
+input[type = checkbox]:checked + .uneasyEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445718372477d57a93f_icon-emoji-teeth.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid green 2px;
+}
+
+.indifferent[type = checkbox]{
+  display:none;
+}
+
+input[type = checkbox] + .indifferentEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/6142344526b46602a102c878_icon-emoji-speechless.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid silver 2px;
+}
+
+input[type = checkbox]:checked + .indifferentEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/6142344526b46602a102c878_icon-emoji-speechless.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid green 2px;
+}
+
+.happy[type = checkbox]{
+  display:none;
+}
+
+input[type = checkbox] + .happyEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445bd225809003f683e_icon-emoji-smile.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid silver 2px;
+}
+
+input[type = checkbox]:checked + .happyEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445bd225809003f683e_icon-emoji-smile.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid green 2px;
+}
+
+.cool[type = checkbox]{
+  display:none;
+}
+
+input[type = checkbox] + .coolEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445c7ecdd5f8ad1c160_icon-emoji-sunglasses.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid silver 2px;
+}
+
+input[type = checkbox]:checked + .coolEmoji{
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445c7ecdd5f8ad1c160_icon-emoji-sunglasses.png);
+  height:48px;
+  width: 48px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  border:solid green 2px;
 }
 
 .quizPage3{
-  display:none;
+  display: none;
 }
 
 .quizPage4{
-  display:none;
+  display: none;
 }
 
 .message2{
-  display:none;
+  display: none;
 }
 
 .message3{
-  display:none;
+  display: none;
 }
 
 .quizPage5{
-  display:none;
+  display: none;
 }
 
 .quizPage6{
-  display:none;
+  display: none;
 }
 
 .quizPage7{
-  display:none;
+  display: none;
 }
 
 .message4{
-  display:none;
+  display: none;
 }
 
 .message5{
-  display:none;
+  display: none;
 }
 
 .quizPage8{
-  display:none;
+  display: none;
 }
 
 .quizPage9{
-  display:none;
+  display: none;
 }
 
 .message6{
-  display:none;
+  display: none;
 }
 
 .quizPage10{
-  display:none;
+  display: none;
 }
 
-=======
 .moneyGangContainer {
   display: grid;
   grid-template-columns: auto;
@@ -1266,4 +1501,3 @@ li {
   width: 50%;
   margin-left: 25%;
 }
->>>>>>> f5e86d5da746d5d9307c8802ef1136552fafa7cf
