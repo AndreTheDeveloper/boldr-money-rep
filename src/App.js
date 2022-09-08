@@ -6,12 +6,14 @@ import NoFilter from "./componenets/NoFilter.jsx";
 import JoinBolder from "./componenets/JoinBolder.jsx";
 import BookACall from "./componenets/BookACall.jsx";
 import TakeTheQuiz from './componenets/TakeTheQuiz.jsx';
+import ScrollToTop from "./componenets/ScrollToTop";
 import React from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
   <BrowserRouter>
+    <ScrollToTop />
     <Routes>
       <Route exact path = '/' element = {<Main />}/>
       <Route exact path = '/OurStory' element = {<OurStory />}/>

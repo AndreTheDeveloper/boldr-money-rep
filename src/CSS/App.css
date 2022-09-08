@@ -1114,9 +1114,10 @@ li {
 }
 
 .quizContainer{
-  padding-top:10vh;
+  padding-top: 20vh;
+  padding-bottom: 18vh;
   background-color:#f7eee6;
-}
+} 
 
 .quizStart{
   display: grid;
@@ -1128,6 +1129,7 @@ li {
   font-family: "Roboto Slab", serif;
   color: black;
   border-top: solid silver;
+  border-bottom: solid silver;
   width:50%;
   margin-left:25%;
   margin-right: 25%;
@@ -1196,6 +1198,7 @@ li {
   font-family: "Roboto Slab", serif;
   color: black;
   border-bottom: solid silver;
+  border-top: solid silver;
   width:50%;
   margin-left:25%;
   margin-right: 25%;
@@ -1230,11 +1233,11 @@ li {
   padding-left: 1vw;
 }
 
-.angry[type = checkbox]{
+.angry[type = radio]{
   display:none;
 }
 
-input[type = checkbox] + .angryEmoji{
+input[type = radio] + .angryEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445c7ecdd8e8fd1c15f_icon-emoji-angry.png);
@@ -1246,7 +1249,7 @@ input[type = checkbox] + .angryEmoji{
   border:solid silver 2px;
 }
 
-input[type = checkbox]:checked + .angryEmoji{
+input[type = radio]:checked + .angryEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445c7ecdd8e8fd1c15f_icon-emoji-angry.png);
@@ -1258,11 +1261,11 @@ input[type = checkbox]:checked + .angryEmoji{
   border:solid green 2px;
 }
 
-.uneasy[type = checkbox]{
+.uneasy[type = radio]{
   display:none;
 }
 
-input[type = checkbox] + .uneasyEmoji{
+input[type = radio] + .uneasyEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445718372477d57a93f_icon-emoji-teeth.png);
@@ -1274,7 +1277,7 @@ input[type = checkbox] + .uneasyEmoji{
   border:solid silver 2px;
 }
 
-input[type = checkbox]:checked + .uneasyEmoji{
+input[type = radio]:checked + .uneasyEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445718372477d57a93f_icon-emoji-teeth.png);
@@ -1286,11 +1289,11 @@ input[type = checkbox]:checked + .uneasyEmoji{
   border:solid green 2px;
 }
 
-.indifferent[type = checkbox]{
+.indifferent[type = radio]{
   display:none;
 }
 
-input[type = checkbox] + .indifferentEmoji{
+input[type = radio] + .indifferentEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/6142344526b46602a102c878_icon-emoji-speechless.png);
@@ -1302,7 +1305,7 @@ input[type = checkbox] + .indifferentEmoji{
   border:solid silver 2px;
 }
 
-input[type = checkbox]:checked + .indifferentEmoji{
+input[type = radio]:checked + .indifferentEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/6142344526b46602a102c878_icon-emoji-speechless.png);
@@ -1314,11 +1317,11 @@ input[type = checkbox]:checked + .indifferentEmoji{
   border:solid green 2px;
 }
 
-.happy[type = checkbox]{
+.happy[type = radio]{
   display:none;
 }
 
-input[type = checkbox] + .happyEmoji{
+input[type = radio] + .happyEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445bd225809003f683e_icon-emoji-smile.png);
@@ -1330,7 +1333,7 @@ input[type = checkbox] + .happyEmoji{
   border:solid silver 2px;
 }
 
-input[type = checkbox]:checked + .happyEmoji{
+input[type = radio]:checked + .happyEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445bd225809003f683e_icon-emoji-smile.png);
@@ -1342,11 +1345,11 @@ input[type = checkbox]:checked + .happyEmoji{
   border:solid green 2px;
 }
 
-.cool[type = checkbox]{
+.cool[type = radio]{
   display:none;
 }
 
-input[type = checkbox] + .coolEmoji{
+input[type = radio] + .coolEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445c7ecdd5f8ad1c160_icon-emoji-sunglasses.png);
@@ -1358,7 +1361,7 @@ input[type = checkbox] + .coolEmoji{
   border:solid silver 2px;
 }
 
-input[type = checkbox]:checked + .coolEmoji{
+input[type = radio]:checked + .coolEmoji{
   display:inline-block;
   padding: 0 0 0 0px;
   background: url(https://uploads-ssl.webflow.com/6107e08479e329549563291a/61423445c7ecdd5f8ad1c160_icon-emoji-sunglasses.png);
@@ -1370,57 +1373,23 @@ input[type = checkbox]:checked + .coolEmoji{
   border:solid green 2px;
 }
 
-.quizPage3{
-  display: none;
+.quizButtons{
+  display: grid;
+  grid-template-columns: auto ;
+  justify-content: center;
+  padding: 5vh 5vh;
+  gap:1vh;
 }
 
-.quizPage4{
-  display: none;
+.quizButtons button{
+  width: 5vw;
+  height:5vh;
+  border-radius: 15px;
+  border: solid 2px silver;
+  font-family: "Roboto Slab", serif;
+  color: black;
 }
 
-.message2{
-  display: none;
-}
-
-.message3{
-  display: none;
-}
-
-.quizPage5{
-  display: none;
-}
-
-.quizPage6{
-  display: none;
-}
-
-.quizPage7{
-  display: none;
-}
-
-.message4{
-  display: none;
-}
-
-.message5{
-  display: none;
-}
-
-.quizPage8{
-  display: none;
-}
-
-.quizPage9{
-  display: none;
-}
-
-.message6{
-  display: none;
-}
-
-.quizPage10{
-  display: none;
-}
 
 .moneyGangContainer {
   display: grid;
