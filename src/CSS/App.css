@@ -1193,8 +1193,8 @@ li {
   grid-template-columns: auto;
   justify-content: center;
   justify-items:center;
-  padding-top: 5vh;
-  padding-bottom:5vh;
+  padding-top: 10vh;
+  padding-bottom:15vh;
   font-family: "Roboto Slab", serif;
   color: black;
   border-bottom: solid silver;
@@ -1390,6 +1390,35 @@ input[type = radio]:checked + .coolEmoji{
   color: black;
 }
 
+.p0{
+  opacity:1;
+  visibility: visible;
+  display:unset;
+  animation: fade-in 2s forwards;
+}
+
+.p1{
+  opacity:0;
+  visibility: hidden;
+  display: none;
+  animation: fade-in 2s forwards;
+}
+
+.p2{
+  opacity:0;
+  visibility: hidden;
+  display: none;
+  animation: fade-in 2s forwards;
+}
+
+@keyframes fade-in{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .moneyGangContainer {
   display: grid;
